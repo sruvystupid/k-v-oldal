@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
 body {
     background-color: #fbefdb;
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.banner{
+    background-image: url(/k-v-oldal/img/banner.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
 }
