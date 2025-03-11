@@ -6,8 +6,26 @@ body {
     font-style: normal;
 }
 .banner{
-    background-image: url(/k-v-oldal/img/banner.jpg);
+    background-image: url(/img/banner.jpg);
     height: 400px;
     background-position: center center;
     background-size: cover;
+}
+.kave{
+    color: #1f5b25;
+    background-color: #fff;
+    border: 1px solid #1f5b25;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.kave:hover{
+    box-shadow: 0px 0px 5px #1f5b25;
+}
+.kave>h2{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-variant: small-caps;
 }
