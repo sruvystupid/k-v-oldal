@@ -13,10 +13,12 @@ body {
 }
 .kave{
     color: #1f5b25;
+    display: inline-block;
     background-color: #fff;
     border: 1px solid #1f5b25;
     border-radius: 4px;
     margin-bottom: 1rem;
+    align-content: center;
 }
 
 .kave:hover{
@@ -32,4 +34,13 @@ body {
 #icon{
     position:absolute;
     width: 5rem;
+}
+.kavekep{
+    width: 100rem;
+    padding: 0;
+    position: relative;
+}
+.row{
+    margin:auto;
+
 }
