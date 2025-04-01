@@ -5,6 +5,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif serif;
     font-weight: 400;
     font-style: normal;
+    height: 140vh;
 }
 .banner{
     background-image: url(/img/banner.jpg);
@@ -20,6 +21,10 @@ body {
     border-radius: 4px;
     margin-bottom: 1rem;
     align-content: center;
+}
+
+div.container{
+    height: 8vh;
 }
 
 .kave:hover{
@@ -43,6 +48,7 @@ body {
 }
 .row{
     margin:auto;
+    height: auto;
 
 }
 h1{
@@ -53,11 +59,18 @@ h1{
 .footer{
     background-color: #1f5b25;
     color: white;
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
 }
+
 li{
     list-style: none;
 }
 .footer img{
     width: 15px;
     margin-right: 10px;
+}
+.card-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
