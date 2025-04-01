@@ -21,6 +21,7 @@ body {
     border-radius: 4px;
     margin-bottom: 1rem;
     align-content: center;
+    padding: 0;
 }
 
 div.container{
@@ -73,4 +74,7 @@ li{
 }
 .card-body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-img-top{
+    padding: 0;
 }
