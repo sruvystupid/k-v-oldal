@@ -81,3 +81,19 @@ li{
 .magassag{
     height: 800px;
 }
+
+.blogimg{
+    width: 100rem;
+    
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.blogszoveg{
+    padding: 20px;
+}
